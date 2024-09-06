@@ -51,7 +51,7 @@ header{
 }
 nav{
     display: flex;
-    width:80%;
+    width:70%;
 }
 .logo{
     display:flex;
@@ -193,3 +193,92 @@ main{
 }
 
 /* #endregion main */
+/* #region footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+   }
+.section1_footer{
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    width: 100%;
+    padding: 10px;
+    background-color: brown;
+    ;
+}
+.ad_content{
+    display:flex;
+    justify-content: center;
+    width: 70%;
+    background-color: azure;
+}
+.ad_1{
+    display: flex;
+    justify-content: center;
+    width:14%;
+    padding: 150px;
+    background-color: palevioletred;
+}
+.ad_2{
+    
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    background-color: aquamarine;
+}
+.ad_3{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    background-color: aquamarine;
+
+}
+.ad_4{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    background-color: aquamarine;
+
+}
+.ad_5{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 30px;
+
+}
+.section2_footer{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    background-color: rgb(112, 109, 109);
+}
+.flex_footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 70%;
+    padding: 10px;
+    height: 50px;
+}
+.logo2{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 10%;
+    background-color: aliceblue;
+}
+.button{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: row;
+        width: 10%;
+        padding: auto;
+        background-color: aliceblue;
+}
+/* #endregion footer */
