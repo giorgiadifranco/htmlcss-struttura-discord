@@ -5,12 +5,71 @@
     padding: 0;
     box-sizing:border-box;
 }
+body{
+    background-color: aqua;
+}
 
 
 /* #endregion common */
 
 /* #region debug */
+.debug * {
+    border: 1px dashed;
+}
+.debug header{ 
+    height: ;
+    background-color: yellow;
+
+}
+.debug nav{
+    background-color: blueviolet;
+}
 
 
 
-/* #endregio debug */
+/* #endregion debug */
+
+/* #region utilities */
+
+.flex_header{
+    display: flex;
+    justify-content: ;
+    align-content: center;
+    padding: auto;  
+    }
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+   }
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+/* #endregion utilities */
+
+/* #region header */
+header{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+}
+nav{
+    display: flex;
+    width:80%;
+}
+
+
+/* #endregion header */
