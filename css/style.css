@@ -87,7 +87,7 @@ main{
 .section1_main{
     display: flex;
     justify-content: center;
-    flex-direction: ;
+    flex-direction: row;
     width: 100%;
     padding: 20px;
     background-color: antiquewhite;
@@ -177,9 +177,9 @@ main{
 .section5_main{
     display: flex;
     justify-content: center;
-    flex-direction: ;
+    flex-direction: row;
     width: 100%;
-    padding: 20px;
+    padding: 40px;
     background-color: antiquewhite
     ;
 }
@@ -187,8 +187,8 @@ main{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    width: 60%;
-    padding: 100px;
+    width: 71.5%;
+    padding: 350px;
     background-color: rgb(235, 144, 220)
 }
 
